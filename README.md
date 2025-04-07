@@ -63,20 +63,3 @@ Then this section is perfect for you!
 
 ---
 
-## 🛠️ Requirements
-
-Minimal requirements:
-- Python 3+
-- NumPy
-- Matplotlib (for Jupyter Notebook visualizations)
-
----
-
-## 🌟 Explore. Learn. Build.
-
-This repo is crafted for:
-- 🎓 Students building foundational intuition  
-- 🧠 Learners looking to go **beyond scikit-learn**  
-- 💻 Developers crafting their own ML pipelines
-
-Let’s decode ML together — one function at a time.
