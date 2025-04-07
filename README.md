@@ -1,65 +1,64 @@
-# 🧪 Machine Learning Evaluation & Utility Suite (Python)
+# 🧪 Machine Learning Evaluation & Statistical Tools (Python)
 
-Welcome to the Evaluation & Utilities section of this ML repository!  
-This collection features **from-scratch implementations** of key evaluation metrics, statistical tools, and data processing utilities used across supervised and unsupervised machine learning tasks.
+This repository features a collection of essential **machine learning evaluation metrics** and **statistical utility functions**, all implemented from scratch in Python and Jupyter Notebooks.
+
+Ideal for anyone looking to understand the **mathematics and logic behind model evaluation**, data distribution, and preprocessing — without relying on libraries like scikit-learn.
 
 ---
 
 ## ✨ Features
 
-✅ **End-to-End Evaluation** – Precision, Recall, F1, ROC-AUC, and more  
-📊 **Confusion Matrix Visuals** – For both binary & multiclass classification  
-🔁 **Cross-Validation** – Manual K-Fold splitting and validation  
-📉 **Error Visualization** – Compare model predictions graphically  
-📐 **Statistical Tools** – Covariance matrices, Gaussian distributions  
-🔀 **Data Splitting** – Train/test split without external libraries  
+✅ Confusion Matrices (Binary & Multiclass)  
+📈 ROC & DET Curves, AUC Calculation  
+🔁 Manual K-Fold Cross Validation  
+📉 Error Visualization (Prediction vs Actuals)  
+📊 Covariance Matrix Calculation  
+🔢 Univariate & Multivariate Gaussian Functions  
+🔀 Train-Test Data Splitting  
 
 ---
 
-## 🧩 Modules Breakdown
+## 📂 Repository Structure
 
 ### 📈 Evaluation & Performance
 - `evaluation_metrics.py` / `EVALUATION_METRICS.ipynb`  
-  → Accuracy, Precision, Recall, F1-score, ROC-AUC  
+  → Accuracy, Precision, Recall, F1, ROC-AUC  
 - `evaluation_metrics_2.py` / `EVALUATION_METRICS_2.ipynb`  
-  → DET curves and alternate performance metrics
+  → DET, ROC and AUC curves and other performance visualizations  
 
-### 🧮 Confusion Matrix
+### 🧮 Confusion Matrices
 - `confusion_matrix(two_class).py` / `CONFUSION_MATRIX(TWO_CLASS).ipynb`  
 - `confusion_matrix_(multiclass).py` / `CONFUSION_MATRIX_(MULTICLASS).ipynb`  
-  → Text-based and plotted confusion matrix results
+  → Visual and numeric confusion matrix analysis  
 
 ### 🔁 Cross Validation
 - `k_fold_cross_validation.py` / `K_FOLD_CROSS_VALIDATION.ipynb`  
-  → Manual implementation of K-Fold with metrics across folds
+  → Custom implementation of K-Fold CV from scratch  
 
 ### 📉 Error Visualization
 - `plot_errors.py` / `PLOT_ERRORS.ipynb`  
-  → Error plotting to visualize convergence, residuals, and comparisons
+  → Graphical comparison of predicted vs actual values  
 
 ---
 
-## 📚 Utility Tools
+## 🧰 Utility Functions
 
 ### 📊 Statistical Tools
 - `covariance_matrix.py` / `COVARIANCE_MATRIX.ipynb`  
+  → Covariance matrix calculation  
 - `gaussian_(univariate).py` / `GAUSSIAN_(UNIVARIATE).ipynb`  
 - `gaussian_(multivariate).py` / `GAUSSIAN_(MULTIVARIATE).ipynb`  
-  → Understand the distribution and data variance through Gaussian PDFs and covariance matrices
+  → Gaussian PDFs for single & multiple features  
 
-### 🧪 Data Handling
+### 🔀 Data Splitting
 - `training_and_testing_set(splitting).py` / `TRAINING_AND_TESTING_SET(SPLITTING).ipynb`  
-  → Custom train-test splitting logic
+  → Manual train-test split logic  
 
 ---
 
-## 🚀 Why This Matters
+## 🚀 Getting Started
 
-If you're looking to:
-- Understand ML evaluation **deeply, beyond libraries**
-- Visualize what's happening under the hood  
-- **Build your own ML engine** from scratch  
-Then this section is perfect for you!
-
----
-
+1. **Clone the repository**
+```bash
+git clone https://github.com/tanikaaaa/MODEL_EVALUATION_PYTHON_IMPLEMENTATION.git
+cd MODEL_EVALUATION_PYTHON_IMPLEMENTATION
